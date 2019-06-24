@@ -1814,8 +1814,8 @@
         <ctl name="DMIC MUX7" value="DMIC5" />
         <ctl name="IIR0 INP0 MUX" value="DEC7" />
     </path>
-
-    <path name="speaker">
+	
+	<path name="speaker">
         <ctl name="RX0 Digital Volume" value="84" />
     </path>
 
@@ -1950,7 +1950,19 @@
     </path>
 
     <path name="unprocessed-dual-mic">
-        <path name="handset-mic" />
+        <ctl name="SLIM_0_TX Channels" value="Two" />
+        <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
+        <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
+        <ctl name="CDC_IF TX7 MUX" value="DEC7" />
+        <ctl name="ADC MUX7" value="AMIC" />
+        <ctl name="AMIC MUX7" value="ADC3" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="CDC_IF TX8 MUX" value="DEC8" />
+        <ctl name="ADC MUX8" value="AMIC" />
+        <ctl name="AMIC MUX8" value="ADC1" />
+        <ctl name="ADC3 Volume" value="20" />
+        <ctl name="DEC7 Volume" value="89" />
+        <ctl name="DEC8 Volume" value="89" />
     </path>
 
     <path name="three-mic">
